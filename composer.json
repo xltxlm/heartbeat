@@ -1,0 +1,28 @@
+{
+  "name": "xltxlm/heartbeat",
+  "description": "项目介绍",
+  "authors": [
+    {
+      "name": "xltxlm",
+      "email": "xltxlm@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "xltxlm/mail": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "xltxlm\\heartbeat\\": [
+        "src/"
+      ]
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "xltxlm\\heartbeat\\": [
+        "./"
+      ]
+    }
+  }
+}
